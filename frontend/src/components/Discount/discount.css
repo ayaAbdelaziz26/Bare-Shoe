@@ -1,0 +1,46 @@
+.discount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+    height: 60vh;
+    gap: 100px;
+    background-color: #161414;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.discount-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+}
+
+.discount-left h1{
+    color: #9E1D12;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.discount-left p{
+    color: #fff;
+    font-size: 22px;
+}
+
+.discount-left button{
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #9E1D12;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.discount-right img{
+    height: 400px;
+    width: 500px;
+}

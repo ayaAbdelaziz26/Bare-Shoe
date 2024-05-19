@@ -1,0 +1,32 @@
+.first-section{
+    background-image:url('../Assets/BAREFOOT\ \(3\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.bestSeller{
+    display: flex;
+    justify-content: center;
+}
+
+.bestSeller button{
+        background-color: transparent;
+        color: white;
+        outline: 0;
+        height: 50px;
+        width: 250px; 
+        font-weight: 600;
+        font-size: 18px;
+        border-radius: 20px;
+        border: 3px solid #9E1D12;
+        cursor: pointer;
+}
+
+.bestSeller button:hover{
+    background-color:#9E1D12;
+}

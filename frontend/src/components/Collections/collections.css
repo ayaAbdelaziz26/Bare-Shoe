@@ -1,0 +1,71 @@
+.second-section{
+    display: flex;
+    margin-top: 300px;
+    height: 95vh;
+    margin: 0 50px;
+    justify-content: space-between;
+    padding-top:200px;
+}
+
+.kids-collection, .men-collection,.women-collection{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    width: 650px;
+    gap: 15px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.kids-collection{
+    background-image: url("../Assets/kids_collection_4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.men-collection{
+    background-image: url("../Assets/men-collection.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.women-collection{
+    background-image: url("../Assets/women_collection_3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.men-collection,.women-collection{
+    height: 50%;
+}
+
+.men-women-collection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.second-section button{
+    height: 45px;
+    width: 170px;
+    background-color:#9E1D12;
+    outline: 0;
+    border: 0;
+    border-radius:20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.men-collection:hover, .kids-collection:hover, .women-collection:hover{
+    transform:scale(1.08,1.08);
+    transition: 0.3s ease-in-out;
+}

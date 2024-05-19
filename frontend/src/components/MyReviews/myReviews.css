@@ -1,0 +1,21 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 150px;
+    margin: 0 50px;
+    gap: 100px;
+}
+
+.review h1{
+    color: #9E1D12;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.reviews-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}

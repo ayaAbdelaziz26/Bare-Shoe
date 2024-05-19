@@ -1,0 +1,9 @@
+.shop-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop-category-item{
+    padding: 20px;
+}
